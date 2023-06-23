@@ -9,7 +9,7 @@ const key = '26b392a0b16fb0e28775cb1badceadaa';
 //     });
 
 const requestCity = async (city) => {
-    const baseUrl = 'http://api.openweathermap.org/data/2.5/weather'
+    const baseUrl = '//api.openweathermap.org/data/2.5/weather'
     const query = `?q=${city}&appid=${key}`;
 
     //make fetch call (promise call)
